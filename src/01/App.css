@@ -1,0 +1,26 @@
+#box{
+    width: 600px;
+    border: 1px solid #666;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 50px auto 0;
+}
+#box div{
+    border: 1px solid #666;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#box div:first-child{
+    margin-bottom: 25px;
+}
+#box div#contain{
+    flex-direction: column;
+    align-items: center;
+}
+#box div#contain h1{
+    margin-bottom: 10px;
+}
+#box div#contain p{
+    margin-bottom: 10px;
+}
